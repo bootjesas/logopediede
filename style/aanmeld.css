@@ -131,12 +131,14 @@ input::placeholder {
 
 .container {
     display: flex;
+    margin-left: 15%;
+    gap: 5%;
 
 }
 
 .square {
     width: 450px; /* Pas de breedte aan zoals nodig */
-    height: 400px; /* Pas de hoogte aan zoals nodig */
+    height: 350px; /* Pas de hoogte aan zoals nodig */
     border-radius: 40px;
     overflow: hidden; /* Verberg de overflow van de afbeelding */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Voeg een subtiele schaduw toe */
@@ -152,7 +154,7 @@ img {
 
 h3 {
     text-align: center;
-    margin-top: -2%;
+    margin-top: 2%;
     padding: 10px;
     color: #FF7A00;
     font-family: 'DM Sans', bold;
