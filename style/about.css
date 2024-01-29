@@ -77,3 +77,63 @@ a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Voeg dropshadow toe: horizontaal offset, verticaal offset, vervaging en kleur */
     /* Andere stijlen voor .contact_orange kunnen hier worden toegevoegd */
 }
+
+
+.h2{
+    font-family: 'DM Sans';
+    color: #04162F;
+    font-size:200%;
+    font-weight: bolder;
+    margin-left:10% ;
+    margin-top:4% ;
+}
+
+
+.square {
+    width: 550px; /* Pas de breedte aan zoals nodig */
+    height: 400px; /* Pas de hoogte aan zoals nodig */
+    border-radius: 40px;
+    overflow: hidden; /* Verberg de overflow van de afbeelding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Voeg een subtiele schaduw toe */
+    margin-left: 5%;
+}
+img {
+    width: 550px;
+    height: 250px;
+    object-fit: cover; /* Behoud de verhoudingen van de afbeelding */
+}
+h3 {
+    text-align: center;
+    margin-top: 2%;
+    padding: 10px;
+    color: #FF7A00;
+    font-family: 'DM Sans', bold;
+    font-size: 30px;
+}
+
+.what{
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.lees-meer-knop {
+    width: 183px;
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #0295A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    margin-left: 33%;
+    margin-top: -5%;
+}
+
+.lees-meer-knop:hover {
+    background-color: #04162F; /* Aangepaste kleur bij hover */
+    color: #fff;
+}
